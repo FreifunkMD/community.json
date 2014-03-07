@@ -1,4 +1,4 @@
-Das Community-JSON der Freifunker in Frankfurt am Main.
+Das Community-JSON der Freifunker in Magdeburg.
 
-Für eine genaue Beschreibung siehe https://github.com/freifunk/api.freifunk.net.
+Fï¿½r eine genaue Beschreibung siehe https://github.com/freifunk/api.freifunk.net.
 
