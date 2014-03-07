@@ -1,0 +1,35 @@
+{
+  "name": "Freifunk Magdeburg",
+  "url": "http://md.freifunk.net",
+  "location": {
+    "city": "Magdeburg",
+    "lat": 52.119518,
+    "lon": 11.629183
+  },
+  "contact": {
+    "irc": "#freifunkmd on freenode",
+    "ml": "ffmd@lists.netz39.de",
+    "twitter": "https://twitter.com/freifunkmd"
+  },
+  "techDetails": {
+    "stoererhaftung": "VPN",
+    "firmware": {
+      "url": "tbd"
+    },
+    "networks": {
+      "ipv4": [
+        {
+          "netmask": 16,
+          "network": "10.139.0.0"
+        }
+      ]
+    },
+    "routing": "BATMAN",
+    "splashpage": "none"
+  },
+  "state": {
+    "lastchange": 1394218402
+  },
+  "api": "0.1"
+}
+
