@@ -26,10 +26,48 @@
       "Public Free Wifi",
       "Social Community Building"
     ],
-    "lastchange": "2014-08-30T16:37:39.986Z"
+    "lastchange": "2014-08-30T16:51:24.602Z"
   },
+  "timeline": [
+    {
+      "decription": "Freifunk Magdeburg Kickoff",
+      "timestamp": "2014-01-29"
+    },
+    {
+      "decription": "erste Interne Firmware",
+      "timestamp": "2014-02-10"
+    },
+    {
+      "decription": "Website von Freifunk Magdeburg geht online http://md.freifunk.net/",
+      "timestamp": "2014-03-28"
+    },
+    {
+      "decription": "erstes Gateway online",
+      "timestamp": "2014-05-29"
+    },
+    {
+      "decription": "Knotenregistrierung via Webformular",
+      "timestamp": "2014-05-29"
+    },
+    {
+      "decription": "stable Firmware auf Basis von Gluon veröffentlich (v0.26)",
+      "timestamp": "2014-06-02"
+    },
+    {
+      "decription": "Knotenkarte online http://map.md.freifunk.net/graph.html",
+      "timestamp": "2014-06-04"
+    },
+    {
+      "decription": "Freifunk iOS App integriert Karten aus Magdeburg http://md.freifunk.net/2014/06/freifunk-app/",
+      "timestamp": "2014-06-06"
+    },
+    {
+      "decription": "Release der Firmware 0.28 auf Basis von Gluon v2014.2",
+      "timestamp": "2014-08-19"
+    }
+  ],
   "nodeMaps": [
-        {
+    {
       "url": "http://map.md.freifunk.net/geomap.html",
       "interval": "1 min",
       "technicalType": "ffmap",
