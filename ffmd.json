@@ -1,35 +1,85 @@
 {
   "name": "Freifunk Magdeburg",
-  "url": "http://md.freifunk.net",
-  "location": {
-    "city": "Magdeburg",
-    "lat": 52.119518,
-    "lon": 11.629183
-  },
-  "contact": {
-    "irc": "#freifunkmd on freenode",
-    "ml": "ffmd@lists.netz39.de",
-    "twitter": "https://twitter.com/freifunkmd"
-  },
+  "api": "0.3.0",
+  "url": "https://md.freifunk.net",
   "techDetails": {
-    "stoererhaftung": "VPN",
+    "updatemode": "manuel",
+    "bootstrap": "https://register.md.freifunk.net",
+    "splashpage": "none",
     "firmware": {
-      "url": "tbd"
+      "url": "http://firmware.md.freifunk.net/",
+      "name": "gluon"
     },
+    "routing": "batman-adv",
+    "tld": {
+      "nameserver": [
+        "10.139.0.9",
+      ],
+      "domainname": "ffmd"
+    },
+    "vpn": "fastd",
+    "stoererhaftung": "VPN in die Niederlande und nach Schweden",
     "networks": {
       "ipv4": [
         {
-          "netmask": 16,
-          "network": "10.139.0.0"
+          "network": "10.139.0.0/17"
+        }
+      ],
+      "ipv6": [
+        {
+          "network": "da9:026e:5805::/64"
         }
       ]
-    },
-    "routing": "BATMAN",
-    "splashpage": "none"
+    }
   },
   "state": {
-    "lastchange": 1394218402
+    "nodes": ,
+    "lastchange": "2014-08-30T18:00:00",
+    "message": "open for public"
   },
-  "api": "0.1"
-}
+  "contact": {
+    "ml": "ffmd@lists.netz39.de",
+    "twitter": "@freifunkmd",
+    "irc": "irc://irc.freenode.net/ffhh",
+    "email": "kontakt@md.freifunk.net"
+  },
+  "location": {
+    "lat": 52.119518,
+    "lon": 11.629183,
+    "city": "Magdeburg",
+    "address": {
+      "Street": "Leibnizstraße 32",
+      "Name": "Netz39 e.V.",
+      "Zipcode": "39104"
+    }
+  },
+  "services": [ ],
+  "nodeMaps": [
+    {
+      "url": "http://map.md.freifunk.net/geomap.html",
+      "interval": "1 min",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    },
+    {
+      "url": "http://map.md.freifunk.net/graph.html",
+      "interval": "1 min",
+      "technicalType": "ffmap",
+      "mapType": "structural"
+    },
+    {
+      "url": "http://map.md.freifunk.net/list.html",
+      "interval": "1 min",
+      "technicalType": "ffmap",
+      "mapType": "list/status"
+    }
+  ],
+  "feeds": [
+    {
+      "category": "blog",
+      "url": "http://md.freifunk.net/?feed=rss2",
+      "type": "rss"
+    },
 
+  ]
+}
