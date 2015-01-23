@@ -42,6 +42,7 @@ function updateNodeNumber(nodes){
 	var routers = nodes.nodes.filter(function(node) {
 		return !node.flags.client & !node.flags.gateway & node.flags.online;
 	});
+	apiEntry.state.lastchange = (new Date()).toISOString();
 	apiEntry.state.nodes = routers.length;
 	util.puts(util.inspect(apiEntry));
 }
