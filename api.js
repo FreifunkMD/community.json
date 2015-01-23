@@ -50,7 +50,3 @@ function updateNodeNumber(nodes){
 fs.readFile("ffmd.json", parseJsonFromFile);
 getNodesInformation();
 
-http.createServer(function(req, res) {
-	res.writeHead(200, {'content-type': 'application/javascript'});
-	res.end(JSON.stringify(apiEntry));
-}).listen(3000);
