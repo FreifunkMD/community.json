@@ -44,7 +44,7 @@ function updateNodeNumber(nodes){
 	});
 	apiEntry.state.lastchange = (new Date()).toISOString();
 	apiEntry.state.nodes = routers.length;
-	util.puts(util.inspect(apiEntry));
+	util.puts(JSON.stringify(apiEntry));
 }
 
 
