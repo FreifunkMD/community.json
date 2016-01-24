@@ -21,13 +21,13 @@
     "twitter": "@freifunkmd"
   },
   "state": {
-    "nodes": 42,
+    "nodes": 201,
     "focus": [
       "Public Free Wifi",
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2015-01-23T18:41:17.252Z"
+    "lastchange": "2016-01-24T18:13:28.469Z"
   },
   "timeline": [
     {
@@ -95,6 +95,11 @@
       "mapType": "list/status"
     }
   ],
+  "socialprojects": {
+    "number": 5,
+    "website": "https://wiki.md.freifunk.net/Projekte",
+    "contact": "kontakt@md.freifunk.net"
+  },
   "support": {
     "club": {
       "name": "Netz39 e.V.",
@@ -102,6 +107,19 @@
       "zip": "39104",
       "city": "Magdeburg",
       "url": "http://www.netz39.de/"
+    },
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE718109 32740001442481",
+        "BIC": "GENODEF1MD1",
+        "usage": "Spende Freifunk"
+      },
+      "campaigns": [
+        {
+          "provider": "betterplace",
+          "projectid": "34159"
+        }
+      ]
     }
   },
   "techDetails": {
@@ -141,5 +159,5 @@
       "vpninternational"
     ]
   },
-  "api": "0.4.5"
+  "api": "0.4.11"
 }
