@@ -1,2 +1,2 @@
 #!/bin/sh
-node api.js > api.json
+/usr/bin/node api.js > api.json
