@@ -16,7 +16,7 @@ use LWP::Simple;
 my $online_nodes = 0;
 
 # get json
-my $content = get('http://map.md.freifunk.net/nodes.json');
+my $content = get('http://map.md.freifunk.net/data/nodes.json');
 croak 'Could not get nodes.json!' unless defined $content;
 
 my $nodes_ref = decode_json($content);
