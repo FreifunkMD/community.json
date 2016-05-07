@@ -77,23 +77,10 @@
   ],
   "nodeMaps": [
     {
-      "url": "http://map.md.freifunk.net/geomap.html",
+      "url": "http://map.md.freifunk.net/data/nodelist.json",
       "interval": "1 min",
-      "technicalType": "ffmap",
-      "mapType": "geographical"
+      "technicalType": "nodelist",
     },
-    {
-      "url": "http://map.md.freifunk.net/graph.html",
-      "interval": "1 min",
-      "technicalType": "ffmap",
-      "mapType": "structural"
-    },
-    {
-      "url": "http://map.md.freifunk.net/list.html",
-      "interval": "1 min",
-      "technicalType": "ffmap",
-      "mapType": "list/status"
-    }
   ],
   "socialprojects": {
     "number": 5,
