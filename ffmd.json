@@ -100,13 +100,7 @@
         "IBAN": "DE718109 32740001442481",
         "BIC": "GENODEF1MD1",
         "usage": "Spende Freifunk"
-      },
-      "campaigns": [
-        {
-          "provider": "betterplace",
-          "projectid": "34159"
-        }
-      ]
+      }
     }
   },
   "techDetails": {
