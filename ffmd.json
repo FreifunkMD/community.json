@@ -28,44 +28,6 @@
     ],
     "lastchange": "2016-01-24T18:13:28.469Z"
   },
-  "timeline": [
-    {
-      "description": "Freifunk Magdeburg Kickoff",
-      "timestamp": "2014-01-29"
-    },
-    {
-      "description": "erste Interne Firmware",
-      "timestamp": "2014-02-10"
-    },
-    {
-      "description": "Website von Freifunk Magdeburg geht online http://md.freifunk.net/",
-      "timestamp": "2014-03-28"
-    },
-    {
-      "description": "erstes Gateway online",
-      "timestamp": "2014-05-29"
-    },
-    {
-      "description": "Knotenregistrierung via Webformular",
-      "timestamp": "2014-05-29"
-    },
-    {
-      "description": "stable Firmware auf Basis von Gluon veröffentlich (v0.26)",
-      "timestamp": "2014-06-02"
-    },
-    {
-      "description": "Knotenkarte online http://map.md.freifunk.net/graph.html",
-      "timestamp": "2014-06-04"
-    },
-    {
-      "description": "Freifunk iOS App integriert Karten aus Magdeburg http://md.freifunk.net/2014/06/freifunk-app/",
-      "timestamp": "2014-06-06"
-    },
-    {
-      "description": "Release der Firmware 0.28 auf Basis von Gluon v2014.2",
-      "timestamp": "2014-08-19"
-    }
-  ],
   "feeds": [
     {
       "name": "Freifunk Magdeburg Blog",
