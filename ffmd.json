@@ -41,7 +41,7 @@
       "url": "http://map.md.freifunk.net/data/nodelist.json",
       "interval": "1 min",
       "technicalType": "nodelist",
-    },
+    }
   ],
   "socialprojects": {
     "website": "http://www.netz39.de/wiki/freifunk:projekte",
