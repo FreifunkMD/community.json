@@ -40,7 +40,7 @@
     {
       "url": "http://map.md.freifunk.net/data/nodelist.json",
       "interval": "1 min",
-      "technicalType": "nodelist",
+      "technicalType": "nodelist"
     }
   ],
   "socialprojects": {
